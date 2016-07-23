@@ -34,13 +34,13 @@
 
 
 // Umbralización de la imagen con los bordes obtenidos
-#	define CONF_USE_THRESHOLDING // Activar thresholding
+//#	define CONF_USE_THRESHOLDING // Activar thresholding
 #	define CONF_THRESHOLD 20 // Threshold [0, 256)
 
 // Aplicación de la matriz de convolución (solo si se umbralizan los bordes)
-#	define CONF_USE_FILTER // Activar convolución
+//#	define CONF_USE_FILTER // Activar convolución
 // Tamaño del kernel 
-#	define CONF_FILTER_KERNEL_SIZE 3 
+#	define CONF_FILTER_KERNEL_SIZE 3
 // Kernel del filtro
 #	define CONF_FILTER_KERNEL Mat::ones(CONF_FILTER_KERNEL_SIZE, CONF_FILTER_KERNEL_SIZE, CV_32F)
 
